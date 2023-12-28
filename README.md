@@ -1,5 +1,14 @@
 # Node.js printing
 
+[![NPM Version](https://img.shields.io/npm/v/pdf-to-printer-modern.svg)](https://www.npmjs.com/package/pdf-to-printer-modern)
+[![Commit](https://img.shields.io/github/last-commit/websmithcode/pdf-to-printer-modern.svg)](https://github.com/websmithcode/pdf-to-printer-modern/commits/master)
+[![codecov](https://codecov.io/gh/websmithcode/pdf-to-printer-modern/branch/master/graph/badge.svg)](https://codecov.io/gh/websmithcode/pdf-to-printer-modern)
+[![NPM Downloads](https://img.shields.io/npm/dt/pdf-to-printer-modern.svg)](https://www.npmjs.com/package/pdf-to-printer-modern)
+[![Github Repo Size](https://img.shields.io/github/repo-size/websmithcode/pdf-to-printer-modern.svg)](https://github.com/websmithcode/pdf-to-printer-modern)
+[![Contributors](https://img.shields.io/github/contributors/websmithcode/pdf-to-printer-modern.svg)](https://github.com/websmithcode/pdf-to-printer-modern/graphs/contributors)
+[![LICENSE](https://img.shields.io/npm/l/pdf-to-printer-modern.svg)](https://github.com/websmithcode/pdf-to-printer-modern/blob/master/LICENSE)
+
+
 <!-- [![Build Status](https://api.cirrus-ci.com/github/artiebits/pdf-to-printer.svg)](https://cirrus-ci.com/github/artiebits/pdf-to-printer)
 [![codecov](https://codecov.io/gh/artiebits/pdf-to-printer/branch/master/graph/badge.svg)](https://codecov.io/gh/artiebits/pdf-to-printer)
 ![npm](https://img.shields.io/npm/dw/pdf-to-printer) -->
