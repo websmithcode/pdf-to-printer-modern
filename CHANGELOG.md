@@ -1,6 +1,12 @@
 # Changelog
 
-## [5.7.0](https://www.github.com/websmithcode/pdf-to-printer-modern/compare/v5.6.0...v5.7.0) (2023-12-28)
+## [5.8.0](https://www.github.com/websmithcode/pdf-to-printer-modern/compare/v5.7.0...v5.8.0) (2023-12-28)
+
+### Features
+
+- Add `getPagesNumbers` method for parse `pages` arg
+
+## [5.8.0](https://www.github.com/websmithcode/pdf-to-printer-modern/compare/v5.7.0...v5.8.0) (2023-12-28)
 
 ### Bug Fixes
 

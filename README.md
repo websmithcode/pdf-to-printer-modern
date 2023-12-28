@@ -26,6 +26,7 @@ If you rely on this package, please consider supporting it. Maintaining an open 
     - [`.print(pdf[, options]) => Promise<void>`](#printpdf-options--promisevoid)
     - [`.getPrinters() => Promise<Printer[]>`](#getprinters--promiseprinter)
     - [`.getDefaultPrinter() => Promise<Printer | null>`](#getdefaultprinter--promiseprinter--null)
+    - [`.getPagesNumbers() => numbers[]`](#getpagesnumbers--numbers)
   - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -147,6 +148,25 @@ A function to get the default printer information.
 import { getDefaultPrinter } from "pdf-to-printer";
 
 getDefaultPrinter().then(console.log);
+```
+### `.getPagesNumbers() => numbers[]`
+
+A function to get the array that contains numbers of pages.
+
+**Arguments**
+
+1. `pages` (`string`, required): The argument represents pages, that should be print.
+
+**Returns**
+
+`number[]`: a array that contains the numbers of pages.
+
+**Examples**
+
+```javascript
+import { getPagesNumbers } from "pdf-to-printer";
+
+console.log(getPagesNumbers('1-2,4,8-12'));
 ```
 
 ## License
