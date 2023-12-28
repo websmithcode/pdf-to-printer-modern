@@ -149,6 +149,7 @@ import { getDefaultPrinter } from "pdf-to-printer";
 
 getDefaultPrinter().then(console.log);
 ```
+
 ### `.getPagesNumbers() => numbers[]`
 
 A function to get the array that contains numbers of pages.
@@ -166,7 +167,7 @@ A function to get the array that contains numbers of pages.
 ```javascript
 import { getPagesNumbers } from "pdf-to-printer";
 
-console.log(getPagesNumbers('1-2,4,8-12'));
+console.log(getPagesNumbers("1-2,4,8-12"));
 ```
 
 ## License

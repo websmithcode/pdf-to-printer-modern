@@ -1,5 +1,5 @@
 {
-  "name": "pdf-to-printer-moderm",
+  "name": "pdf-to-printer-modern",
   "version": "5.8.0",
   "description": "A utility for printing PDFs and images from Node.js and Electron.",
   "license": "MIT",
