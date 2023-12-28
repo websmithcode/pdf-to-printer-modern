@@ -31,7 +31,7 @@ afterEach(() => {
   mockedJoin.mockRestore();
 });
 
-const sumatraPdfPath = "mocked_path_SumatraPDF-3.4.6-32.exe";
+const sumatraPdfPath = "mocked_path_SumatraPDF-3.5.2-32.exe";
 
 it("throws when no file is specified.", async () => {
   // @ts-ignore
@@ -92,7 +92,7 @@ it("allows users to specify which pages to print in the document", async () => {
   await print(filename, options);
 
   expect(execAsync).toHaveBeenCalledWith(
-    "mocked_path_SumatraPDF-3.4.6-32.exe",
+    "mocked_path_SumatraPDF-3.5.2-32.exe",
     ["-print-to-default", "-silent", "-print-settings", "1,3", filename]
   );
 });
